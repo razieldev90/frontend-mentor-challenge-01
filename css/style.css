@@ -13,15 +13,14 @@ body {
   background: #e6eff6;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   height: 100vh;
-  margin: 0;
+  width: 100%;
   line-height: 1.6;
 }
 
 main {
   background: #fff;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   width: 305px;
@@ -31,7 +30,6 @@ main {
 @media all and (min-width: 1440px) {
   main {
     width: 635px;
-    height: 470px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -92,6 +90,7 @@ main {
 }
 .cell-2 p:first-of-type {
   margin-top: 0.5rem;
+  color: #afccdf;
 }
 .cell-2 p:first-of-type span {
   color: #fff;
@@ -130,6 +129,7 @@ main {
 }
 .cell-3 p {
   font-size: 0.85rem;
+  color: #e5eff5;
 }
 
 /*# sourceMappingURL=style.css.map */
