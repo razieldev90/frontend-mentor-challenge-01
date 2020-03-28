@@ -40,12 +40,12 @@ main{
   margin:  auto;
   display: flex;
   flex-direction: column;
-  width: 305px;
+  max-width: 305px;
   color: #fff;
   border-radius: 15px;
 
   @media all and (min-width: $desktop){
-    width: 635px;
+    max-width: 635px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -149,5 +149,14 @@ main{
   p{
     font-size: 0.85rem;
     color: $light-gray;
+  }
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  a { 
+    color: hsl(228, 45%, 44%); 
   }
 }
