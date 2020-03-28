@@ -129,6 +129,18 @@ main{
     border-radius: 5px;
     color: #fff;
     font-size: 0.9rem;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: all 0.25s ease-in-out;
+
+    &:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 0 15px #555;
+
+      &:active{
+        transform: translateY(4px);
+      }
+    }
   }
 }
 

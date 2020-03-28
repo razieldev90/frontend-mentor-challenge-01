@@ -23,13 +23,13 @@ main {
   margin: auto;
   display: flex;
   flex-direction: column;
-  width: 305px;
+  max-width: 305px;
   color: #fff;
   border-radius: 15px;
 }
 @media all and (min-width: 1440px) {
   main {
-    width: 635px;
+    max-width: 635px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -111,6 +111,16 @@ main {
   border-radius: 5px;
   color: #fff;
   font-size: 0.9rem;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all 0.25s ease-in-out;
+}
+.cell-2 button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #555;
+}
+.cell-2 button:hover:active {
+  transform: translateY(4px);
 }
 
 .cell-3 {
@@ -130,6 +140,14 @@ main {
 .cell-3 p {
   font-size: 0.85rem;
   color: #e5eff5;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=style.css.map */
